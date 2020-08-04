@@ -1,18 +1,13 @@
+# Conure
 
-
----
-
-# LinkShare
-
-This is a firefox web-extension to retrieve links share from other users or the corresponding apps.
-
+Conure is a Firefox web extension that intercepts calls to a web API in order to learn from its responses and ultimately fake them.
 
 ## Get started
 
 Install the dependencies.
 
 ```bash
-npm install
+yarn
 ```
 
 Adjust the web-ext.config.js to point to your firefox binary.
@@ -20,8 +15,8 @@ Adjust the web-ext.config.js to point to your firefox binary.
 Then start in test browser:
 
 ```bash
-npm run build
-npm run start
+yarn build
+yarn start
 ```
 
 A browser window will open automatically with the web-extension loaded.
