@@ -2,13 +2,13 @@ import firebase from 'firebase/app';// rollup bundle issue with ESM import
 import 'firebase/auth';
 import 'firebase/firestore';
 const firebaseConfig = {
-	apiKey: "AIzaSyAcb2rpzwqExSSfVQz7swjYeOMj6TNBcRI",
-	authDomain: "link-share-c2421.firebaseapp.com",
-	databaseURL: "https://link-share-c2421.firebaseio.com",
-	projectId: "link-share-c2421",
-	storageBucket: "link-share-c2421.appspot.com",
-	messagingSenderId: "522831258338",
-	appId: "1:522831258338:web:4c0087991545da39"
+	apiKey: "--",
+	authDomain: "--",
+	databaseURL: "--",
+	projectId: "--",
+	storageBucket: "--",
+	messagingSenderId: "--",
+	appId: "--"
   };
 
 firebase.initializeApp(firebaseConfig);
